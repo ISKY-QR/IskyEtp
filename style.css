@@ -96,6 +96,69 @@ section h2 {
   margin: 10px 0;
 }
 
+
+
+/* Customers Section */
+.customers {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.customers h2 {
+  font-size: 2rem;
+  color: #0052d4;
+  margin-bottom: 15px;
+}
+
+.customers .section-intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.customer-reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-text {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.review-card h3 {
+  color: #0052d4;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.review-role {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+
+
+
 /* Footer */
 .footer {
   background: #333;
